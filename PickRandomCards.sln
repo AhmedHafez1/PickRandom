@@ -5,7 +5,9 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PickRandomCards", "PickRandomCards\PickRandomCards.csproj", "{04859738-5032-4C7E-9A33-B78FF2674DFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickACardUI", "PickACardUI\PickACardUI.csproj", "{2C0EF9E2-02A5-4B02-A647-2A0241317343}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PickACardUI", "PickACardUI\PickACardUI.csproj", "{2C0EF9E2-02A5-4B02-A647-2A0241317343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{6EA0BA8F-EBD3-4CE3-9D34-AD71C73BBAEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2C0EF9E2-02A5-4B02-A647-2A0241317343}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C0EF9E2-02A5-4B02-A647-2A0241317343}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C0EF9E2-02A5-4B02-A647-2A0241317343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA0BA8F-EBD3-4CE3-9D34-AD71C73BBAEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA0BA8F-EBD3-4CE3-9D34-AD71C73BBAEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA0BA8F-EBD3-4CE3-9D34-AD71C73BBAEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA0BA8F-EBD3-4CE3-9D34-AD71C73BBAEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
