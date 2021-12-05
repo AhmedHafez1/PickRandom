@@ -10,6 +10,11 @@ namespace PickACardUI
     {
         static Random random = new Random();
 
+        /// <summary>
+        /// Picks a number of cards and returns them.
+        /// </summary>
+        /// <param name="numberOfCards">The number of cards to pick.</param>
+        /// <returns>An array of strings that contain the card names.</returns>
         public static string[] PickSomeCards(int numberOfCards)
         {
             string[] pickedCards = new string[numberOfCards];
@@ -21,7 +26,7 @@ namespace PickACardUI
 
             return pickedCards;
         }
-         
+
         private static string RandomSuit()
         {
             // get a random number from 1 to 4
@@ -47,5 +52,8 @@ namespace PickACardUI
 
             return value.ToString();
         }
+
+
+
     }
 }
